@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h2>Formulir Pendaftaran SMA 1 Ketapang</h2>
+    <form action="formulir.php" method="POST" name="fpendaftaran">
+        <table>
+            <tr>
+				<td colspan="2">1. KETERANGAN SISWA</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td align="center">1</td>
+				<td><label for="fnama" >Nama Lengkap</label></td>
+				<td><input type="text" id="fnama" name="fnama"></td>
+			</tr>
+			<tr>
+				<td align="center">2</td>
+				<td><label for="fpanggilan" >Nama Panggilan</label></td>
+				<td><input type="text" id="fpanggilan" name="fpanggilan"></td>
+			</tr>
+			<tr>
+				<td align="center">3</td>
+				<td><label for="fjenisKel" >Jenis Kelamin</label></td>
+				<td>
+					<input type="radio" id="flaki" name="fjenisKel" value="laki">
+					<label for="laki" >Laki-laki</label>
+					<input type="radio" id="fperempuan" name="fjenisKel" value="perempuan">
+					<label for="perempuan" >Perempuan</label>
+				</td>
+			</tr>
+            <tr>
+				<td align="center">4</td>
+				<td><label for="ftempTanggal" >Tempat,Tanggal lahir</label></td>
+				<td colspan="3"><input type="text" id="ftempat" name="ftempat" size="5"> <input type="date" id="ftanggalLahir" name="ftanggalLahir"></td>
+			</tr>
+			<tr>
+                <td align="center">5</td>
+                <td><label for="fagama">Agama</label></td>
+                <td>
+                    <select id="fagama" name="fagama">
+                        <option value="11"></option>
+                        <option value="12">Islam</option>
+                        <option value="13">Kristen</option>
+                        <option value="14">Hindu</option>
+                        <option value="15">Budha</option>
+                        <option value="16">Konghucu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+				<td align="center">6</td>
+				<td><label for="fkwarga" >Kewarganegaraan</label></td>
+				<td>
+					<input type="radio" id="fwni" name="fkwarga" value="wni">
+					<label for="laki" >WNI</label>
+					<input type="radio" id="wna" name="fkwarga" value="wna">
+					<label for="perempuan" >WNA</label>
+				</td>
+            </tr>
+            <tr>
+				<td align="center">9</td>
+				<td><label for="fnohp" >Nomor Handphone </label></td>
+				<td><input type="text" id="fnohp" name="fnohp" placeholder="089695565347" pattern="[0-9]{12}"></td>
+			</tr>    
+			<tr>
+				<td align="center">10</td>
+				<td><label for="falamat" >Alamat Lengkap</label></td>
+				<td>
+					<textarea rows="4" cols="28" name="falamat" placeholder="Desa, RT 000/RW 000, Kecamatan, Kabupaten, Provinsi "></textarea>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2">2. DATA ORANG TUA</td>
+				<td></td>
+			</tr>
+				<td align="center">11</td>
+				<td><label for="fayah" >Ayah Kandung</label></td>
+				<td><input type="text" id="fayah" name="fayah"></td>
+             
+			<tr>
+				<td align="center"></td>
+				<td><label for="fpendidikanayah" >Pendidikan Tertinggi</label></td>
+				<td><input type="text" id="fpendidikanayah" name="fpendidikanayah"></td>
+			
+			</tr>
+			<tr>
+				<td align="center"></td>
+				<td><label for="fpekerjaanAyah" >Pekerjaan</label></td>
+				<td><input type="text" id="fpekerjaanAyah" name="fpekerjaanAyah"></td>
+			</tr>
+			<tr>
+				<td align="center">12</td>
+				<td><label for="fibu" >Ibu Kandung</label></td>
+				<td><input type="text" id="fibu" name="fibu"></td>
+			</tr>
+			<tr>
+                <td align="center"></td>
+				<td><label for="fpendidikanibu" >Pendidikan Tertinggi</label></td>
+				<td><input type="text" id="fpendidikanibu" name="fpendidikanibu"></td>
+			</tr>
+			<tr>
+				<td align="center"></td>
+				<td><label for="fpekerjaanIbu" >Pekerjaan</label></td>
+				<td><input type="text" id="fpekerjaanIbu" name="fpekerjaanIbu"></td>
+			</tr>
+            <tr>
+				<td align="center">13</td>
+				<td><label for="fhportu" >Nomor Handphone Orang Tua</label></td>
+				<td><input type="text" id="fhportu" name="fhportu" placeholder="089695565347" pattern="[0-9]{12}"></td>
+			</tr>
+			<tr>
+				<td align="center">14</td>
+				<td><label for="falamatOrtu" >Alamat Orang Tua</label></td>
+				<td>
+					<textarea rows="4" cols="28" name="falamatOrtu" placeholder="Desa, RT 000/RW 000, Kecamatan, Kabupaten, Provinsi "></textarea>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> </td>
+				<td><input type="submit" name="fsubmit" value="kirim"></td>
+			</tr>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
