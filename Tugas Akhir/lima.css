@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.button {
+  display: inline-block;
+  margin: auto;
+  background: rgb(15, 153, 123);
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+
+.header {
+  background: radial-gradient(#fff, #deec16);
+}
+
+.kategori {
+  margin: 70px 0;
+}
+.col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 100%;
+}
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+}
+.col-4 img {
+  width: 100%;
+}
+.titel {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+h4 {
+  color: #555;
+  font-weight: 20px;
+}
+.col-4 p {
+  font-size: 14px;
+}
+.offer {
+  background: radial-gradient(#fff, #deec16);
+}
+.col-2 .offer-img {
+  padding: 50px;
+}
+
+.footer {
+  background: #deec16;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p {
+  color: #fff;
+}
+.footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer-col-1 {
+  flex-basis: 30%;
+}
+
+.footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+.menu {
+  width: 28px;
+  margin-left: 20 px;
+}
+.serch input {
+  width: 100%;
+  margin-right: 50px;
+  max-width: 840px;
+  height: 55px;
+  border-radius: 30px;
+  border: none;
+  padding: 0 30px;
+  outline: none;
+  margin: 30px 20px;
+  font-size: 16px;
+}
